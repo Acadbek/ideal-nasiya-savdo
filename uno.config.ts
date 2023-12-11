@@ -1,11 +1,12 @@
-import { defineConfig, presetIcons, presetUno } from 'unocss'
+import { defineConfig, presetIcons, presetAttributify, presetUno } from 'unocss'
 
 export default defineConfig({
     shortcuts: {
-        // global style in here
+        'pr-color': '#0D6EFD',
     },
     presets: [
         presetUno(),
-        presetIcons()
+        presetIcons(),
+        presetAttributify()
     ]
 })

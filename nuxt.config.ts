@@ -5,4 +5,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
+  plugins: [
+    './plugins/naive-ui.ts'
+  ]
 })
